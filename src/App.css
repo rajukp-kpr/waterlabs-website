@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  min-height: 12vh;
+  padding :10px;
+  align-items: center;
+  background-color: rgba(63, 174, 189, 0.6) ;
+  color: #fff;
+}
+
+
+
+nav .logo {
+  display : flex-start;
+  font-size: 22px;
+  font-weight: 700;
+  text-transform: uppercase;
+  cursor: pointer;
+}  
+
+nav .Nav-links {
+  display: flex;
+  justify-content: flex-end;
+  width: 35%;
+}
+
+nav .Nav-links a {
+  font-size: 18px;
+  font-weight: normal;
+  cursor: pointer;
+}
+
+nav .Nav-links a:hover {
+  border-bottom: 1px solid #fff;
+}
+
+@media all and (max-width: 300px) {
+  body {
+    display: none;
+  }
+}
+
+div .lev1 {
+  background-image: url("images/cubes.jpg");
+  background-size: 80px 80px;
+  border: 0px;
+  display: flex;
+  flex-flow: row nowrap;
+  padding: 68px;
+
+}
+
+div .mtex {
+  width: 50%;
+  justify-content: center;
+  padding: 90px;
+}
+
+
+
+.mtex h1 {
+font-size: 55px;
+display: flex;
+}
+
+.mtex p {
+  font-size: 18px;
+  padding: 0px;
+}
+
+.mtex img {
+  
+  justify-content: center;
+  width: 100%;
+}
+
+div .bu button {
+  padding: 10px;
+}
+
+div .lev2 {
+  margin: 60px;
+  justify-content: center;
+  text-align: center;
+  padding: 30px;
+background-color: #faf9f0;
+  box-sizing: content-box;
+  box-shadow: 2px 2px 5px 5px rgb(232, 238, 236);
+  border: sloid red;
+
+}
+
+div .lev2 h1 {
+  font-size: 35px;
+  text-decoration: underline;
+}
+
+div .lev2 p {
+  font-size: 20px;
+  padding: 10px;
+  justify-content: center;
+}
+
