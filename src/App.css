@@ -12,39 +12,42 @@ a {
   text-decoration: none;
 }
 
-nav {
+div .navi {
   display: flex;
+  justify-content: center;
+  margin: 10;
   justify-content: space-between;
-  min-height: 12vh;
+  min-height: 10vh;
   padding :10px;
-  align-items: center;
-  background-color: rgba(63, 174, 189, 0.6) ;
+  height: 75px;
+  
+  background-color: #fcfbf9 ;
   color: #fff;
 }
 
 
 
-nav .logo {
+div  .logo {
   display : flex-start;
   font-size: 22px;
-  font-weight: 700;
   text-transform: uppercase;
   cursor: pointer;
 }  
 
-nav .Nav-links {
-  display: flex;
-  justify-content: flex-end;
-  width: 35%;
+div .Nav-links {
+  justify-content: center;
+  margin: 40;
+  padding: 10px;  
 }
 
-nav .Nav-links a {
-  font-size: 18px;
+
+div .Nav-links a {
+  font-size: 14px;
   font-weight: normal;
   cursor: pointer;
 }
 
-nav .Nav-links a:hover {
+div .Nav-links a:hover {
   border-bottom: 1px solid #fff;
 }
 
@@ -93,7 +96,7 @@ div .bu button {
 }
 
 div .lev2 {
-  margin: 60px;
+  margin: 100px;
   justify-content: center;
   text-align: center;
   padding: 30px;
@@ -105,13 +108,178 @@ background-color: #faf9f0;
 }
 
 div .lev2 h1 {
-  font-size: 35px;
+  font-size: 30px;
   text-decoration: underline;
 }
 
 div .lev2 p {
-  font-size: 20px;
-  padding: 10px;
+  margin: 40px;
+  font-size: 17px;
+  padding: 0px;
   justify-content: center;
 }
 
+div .fea {
+  background-color: #faf9f0;
+  box-shadow: 2px 2px 5px 5px rgb(232, 238, 236);
+  justify-content: center;
+  text-align: center;
+  margin: 100px;
+  padding: 50px;
+  
+}
+
+div .fea h1 {
+  font-size: 30px;
+  text-decoration: underline;
+  justify-content: space-evenly;
+}
+
+div .card {
+  box-sizing: border-box;  
+  justify-content: center;
+  margin: 20px;
+  padding: 10px;
+  font-size: 16px;
+  background-color: rgb(214, 194, 180)
+}
+
+div .all {
+  margin: 100px;
+  box-shadow: 2px 2px 5px 5px rgb(232, 238, 236);
+}
+
+div .health {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  padding: 30px;
+}
+
+div .health text {
+  justify-content: center;
+  padding: 50px;
+}
+
+div .health h1 {
+font-size: 25px;
+}
+
+div .banking {
+  display:flex;
+  padding: 30px;
+  align-items: center;
+}
+
+div .banking text {
+  justify-content: center;
+  padding: 50px;
+}
+
+div .banking h1 {
+font-size: 25px;
+}
+
+div .insurance {
+  display: flex;
+  padding: 30px;
+  align-items: center;
+}
+
+div .insurance text {
+  justify-content: center;
+  padding: 50px;
+}
+
+div .insurance h1 {
+font-size: 25px;
+}
+
+div .retail {
+  display: flex;
+  padding: 30px;
+  align-items: center;
+}
+
+div .retail text {
+  justify-content: center;
+  padding: 50px;
+}
+
+div .retail h1 {
+font-size: 25px;
+}
+
+
+div .utilities {
+  display: flex;
+  padding: 30px;
+  align-items: center;
+}
+
+div .utilities text {
+  justify-content: center;
+  padding: 50px;
+}
+
+div .utilities h1 {
+font-size: 25px;
+}
+
+
+div .logistics {
+  display: flex;
+  padding: 30px;
+  align-items: center;
+}
+
+div .logistics text {
+  justify-content: center;
+  padding: 50px;
+}
+
+div .logistics h1 {
+font-size: 25px;
+}
+
+
+div .financial {
+  display: flex;
+  padding: 30px;
+  align-items: center;
+}
+
+div .financial text {
+  justify-content: center;
+  padding: 50px;
+}
+
+div .financial h1 {
+font-size: 25px;
+}
+
+div .atex {
+ text-align: center;
+ margin: 100px;
+}
+
+
+div .atex h1 {
+  font-size: 25px;
+}
+
+div .atex p {
+  text-align: center;
+  font-size: 15px;
+}
+
+div .footer {
+  text-align: center;
+  padding : 10px;
+  background-color:  #fdfaf2 ;
+}
+
+div .footer p {
+  padding: 10px;
+  font-size: 15px;
+}

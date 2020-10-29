@@ -1,15 +1,23 @@
 import React from "react";
 import "./App.css";
-import Navbar from "./Navbar";
-import Sndtitle from "./Sndtitle";
-import Whorv from "./Whorv";
+import Header from "./components/Header";
+import DesignMeetsAI from "./components/DesignMeetsAI";
+import WhoAreWe from "./components/WhoAreWe";
+import Features from "./components/Features";
+import Verticals from "./components/Verticals";
+import Approach from "./components/Approach";
+import Footer from "./components/Footer";
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
-      <Sndtitle />
-      <Whorv />
+      <Header />
+      <DesignMeetsAI />
+      <WhoAreWe />
+      <Features />
+      <Verticals />
+      <Approach />
+      <Footer />
     </div>
   );
 }
