@@ -1,9 +1,23 @@
 import React from "react";
 import "../App.css";
 
+
+import { useEffect } from "react";
+
+function ScrollToTopOnMount() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
+  return null;
+}
+
 function FinancialPage() {
   return (
     <div>
+
+<ScrollToTopOnMount />
+
       <div className="up">
         <img src="images/financial-services.png" width="400" />
 

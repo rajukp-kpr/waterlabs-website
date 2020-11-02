@@ -1,9 +1,21 @@
 import React from "react";
 import "../App.css";
 
+
+import { useEffect } from "react";
+
+function ScrollToTopOnMount() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
+  return null;
+}
+
 function UtilitiesPage() {
   return (
     <div>
+      <ScrollToTopOnMount />
       <div className="up">
         <img src="images/utilities.png" width="400" />
 

@@ -1,5 +1,8 @@
 import React from 'react';
 
+import {Link} from "react-router-dom";
+
+
 function DesignMeetsAI () {
     return(
     <div className="lev1">
@@ -12,7 +15,8 @@ function DesignMeetsAI () {
                Artificial Intelligence enabled Robotics Process 
                Automation Services. </p>
                
-              <div className="bu"> <button varient="outline-success" > KnowMore </button> </div>
+              
+              <a href="#wrv">know more</a>
 
         </div>
         

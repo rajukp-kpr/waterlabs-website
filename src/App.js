@@ -12,6 +12,7 @@ import RetailPage from "./verticalsComponents/RetailPage";
 import UtilitiesPage from "./verticalsComponents/UtilitiesPage";
 import LogisticsPage from "./verticalsComponents/LogisticsPage";
 import FinancialPage from "./verticalsComponents/FinancialPage";
+import ScrollToTop from "./verticalsComponents/Scrollup";
 
 
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
@@ -22,8 +23,14 @@ function App() {
       <Header />
 
       <Router>
+    
+
         <Switch>
+
+        
           <Route path="/" exact component={Home} />
+
+          
 
           <Route path="/healthcare" component={HealthPage} />
           <Route path="/banking" component={BankingPage} />
@@ -32,6 +39,7 @@ function App() {
           <Route path="/utilities" component={UtilitiesPage} />
           <Route path="/logistics" component={LogisticsPage} />
           <Route path="/financial-services" component={FinancialPage} />
+          
 
 
         </Switch>

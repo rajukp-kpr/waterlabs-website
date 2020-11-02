@@ -7,11 +7,17 @@ function Footer () {
 
         <div className="footer">
 
-          <img src="images/waterlabs-logo.png" width="200" />  
+<a href="#top">
+          <img src="images/waterlabs-logo.png" width="200"  href="#top"/>  
+          </a>
 
           <p> © 2020 Waterlabs AI LLC. All rights reserved.
               <br />
                Waterlabs AI LLC. 1201 Orange Street, Suite 600, Wilimgton, DE,19801.</p>
+        
+              
+              
+               
 
 
         </div>

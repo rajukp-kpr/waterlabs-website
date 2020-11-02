@@ -1,10 +1,34 @@
+import { render } from "@testing-library/react";
 import React from "react";
 import "../App.css";
 
+import { useEffect } from "react";
+
+function ScrollToTopOnMount() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
+  return null;
+}
+
+
+
 function HealthPage() {
+
+
+
   return (
+
+    
+    
+
+
     <div>
-      <div className="up">
+
+<ScrollToTopOnMount />
+
+          <div className="up">
         <img src="images/healthcare.png" width="400" />
 
         <h1>HealthCare</h1>

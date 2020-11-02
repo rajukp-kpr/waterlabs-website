@@ -5,6 +5,8 @@ import {Link} from "react-router-dom";
 function Verticals() {
   return (
     <div className="all">
+        <h2>Verticals we focused on</h2>
+
       <div className="health">
         <img src="images/healthcare.png" width="500" />
 
