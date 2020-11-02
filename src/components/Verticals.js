@@ -1,4 +1,6 @@
+import { render } from "@testing-library/react";
 import React from "react";
+import {Link} from "react-router-dom";
 
 function Verticals() {
   return (
@@ -7,7 +9,7 @@ function Verticals() {
         <img src="images/healthcare.png" width="500" />
 
         <div classname="text">
-          <h1>Healthcare</h1>
+          <h1>Healthcare</h1> 
           <p>
             {""}
             Healthcare is becoming more crucial day-by-day, as from disease
@@ -18,7 +20,10 @@ function Verticals() {
 
           <div className="bu">
             {" "}
-            <button varient="outline-success"> KnowMore </button>{" "}
+                 <Link to="../healthcare"> knowmore</Link>
+                
+            
+            {" "}
           </div>
         </div>
       </div>
@@ -40,7 +45,7 @@ function Verticals() {
 
           <div className="bu">
             {" "}
-            <button varient="outline-success"> KnowMore </button>{" "}
+            <Link to="../banking"> knowmore</Link>{" "}
           </div>
         </div>
 
@@ -66,7 +71,7 @@ function Verticals() {
 
           <div className="bu">
             {" "}
-            <button varient="outline-success"> KnowMore </button>{" "}
+            <Link to="../insurance"> knowmore </Link>{" "}
           </div>
         </div>
       </div>
@@ -85,7 +90,7 @@ function Verticals() {
 
           <div className="bu">
             {" "}
-            <button varient="outline-success"> KnowMore </button>{" "}
+            <Link to="../retail-space"> knowmore </Link>{" "}
           </div>
         </div>
 
@@ -105,7 +110,7 @@ function Verticals() {
 
           <div className="bu">
             {" "}
-            <button varient="outline-success"> KnowMore </button>{" "}
+            <Link to="../utilities"> knowmore</Link>{" "}
           </div>
         </div>
       </div>
@@ -121,7 +126,7 @@ function Verticals() {
 
           <div className="bu">
             {" "}
-            <button varient="outline-success"> KnowMore </button>{" "}
+            <Link to="../logistics"> knowmore </Link>{" "}
           </div>
         </div>
 
@@ -141,7 +146,7 @@ function Verticals() {
 
           <div className="bu">
             {" "}
-            <button varient="outline-success"> KnowMore </button>{" "}
+            <Link to="../financial-services"> knowmore</Link>{" "}
           </div>
         </div>
       </div>

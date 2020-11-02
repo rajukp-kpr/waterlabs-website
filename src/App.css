@@ -58,12 +58,12 @@ div .Nav-links a:hover {
 }
 
 div .lev1 {
-  background-image: url("images/cubes.jpg");
+  background-image: url("images/cubes.png");
   background-size: 80px 80px;
   border: 0px;
   display: flex;
   flex-flow: row nowrap;
-  padding: 68px;
+  padding: 40px;
 
 }
 
@@ -76,7 +76,7 @@ div .mtex {
 
 
 .mtex h1 {
-font-size: 55px;
+font-size: 65px;
 display: flex;
 }
 
@@ -93,6 +93,7 @@ display: flex;
 
 div .bu button {
   padding: 10px;
+  background-color: rgb(248, 247, 233);
 }
 
 div .lev2 {
@@ -282,4 +283,23 @@ div .footer {
 div .footer p {
   padding: 10px;
   font-size: 15px;
+}
+
+div .up {
+  text-align: center;
+  margin: 0px 200px 0px 200px;
+  padding: 20px
+}
+
+
+
+div .low{ 
+  background-color: rgb(240, 241, 243);
+  padding: 40px;
+
+}
+div .lower {
+  margin :40px 200px 0px 200px;
+  list-style: bullets;
+
 }

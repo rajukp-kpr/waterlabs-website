@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Sndtitle () {
+function DesignMeetsAI () {
     return(
     <div className="lev1">
         
@@ -20,7 +20,7 @@ function Sndtitle () {
         
        
     
-          <img src="images/banner-poster.png" width="600" /> 
+          <img src="images/banner-poster.png" width="550" height="400" /> 
 
         
 
@@ -30,4 +30,4 @@ function Sndtitle () {
 
 }
 
-export default Sndtitle
+export default DesignMeetsAI
