@@ -1,19 +1,17 @@
 import { render } from "@testing-library/react";
 import React from "react";
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function Verticals() {
   return (
     <div className="all">
-        <h2>Verticals we focused on</h2>
-
+      <h2>Verticals we focused on</h2>
       <div className="health">
         <img src="images/healthcare.png" width="500" />
 
         <div classname="text">
-          <h1>Healthcare</h1> 
+          <h1>Healthcare</h1>
           <p>
-            {""}
             Healthcare is becoming more crucial day-by-day, as from disease
             diagnosis to health monitoring, drug research and medicine analysis,
             it has dramatic role into many subfields helping patients to avail
@@ -21,20 +19,16 @@ function Verticals() {
           </p>
 
           <div className="bu">
-            {" "}
-                 <Link to="../healthcare"> knowmore</Link>
-                
-            
-            {" "}
+            <Link to="../healthcare">
+            <button className="know_more-btn">Know More</button>
+              </Link>{" "}
           </div>
         </div>
       </div>
-
       <div className="banking">
-        <div classname="text">
+        <div className="text">
           <h1>Banking</h1>
           <p>
-            {""}
             Banks have started building AI systems to sort the complex data and
             add subsequent ones, for creating a universal record and profile for
             every client. Banks make adequate investments to store data and
@@ -46,14 +40,14 @@ function Verticals() {
           </p>
 
           <div className="bu">
-            {" "}
-            <Link to="../banking"> knowmore</Link>{" "}
+            <Link to="../banking">
+              <button className="know_more-btn">Know More</button>
+            </Link>
           </div>
         </div>
 
         <img src="images/banking.png" width="500" />
       </div>
-
       <div className="insurance">
         <img src="images/insurance.png" width="500" />
 
@@ -73,11 +67,12 @@ function Verticals() {
 
           <div className="bu">
             {" "}
-            <Link to="../insurance"> knowmore </Link>{" "}
+            <Link to="../insurance"> 
+            <button className="know_more-btn">Know More</button>
+             </Link>{" "}
           </div>
         </div>
       </div>
-
       <div className="retail">
         <div classname="text">
           <h1>Retail Space</h1>
@@ -92,14 +87,14 @@ function Verticals() {
 
           <div className="bu">
             {" "}
-            <Link to="../retail-space"> knowmore </Link>{" "}
+            <Link to="../retail-space"> 
+            <button className="know_more-btn">Know More</button>
+             </Link>{" "}
           </div>
         </div>
 
         <img src="images/retail-space.png" width="500" />
       </div>
-      
-      
       <div className="utilities">
         <img src="images/utilities.png" width="500" />
 
@@ -107,53 +102,66 @@ function Verticals() {
           <h1>Utilities</h1>
           <p>
             {""}
-            AI is increasingly aiding utilities in managing, optimizing and maintaining not only their infrastructure, but their customer support operation as well. AI is helping utility companies automate repetitive customer inquiries and other tasks, thereby allowing them to concentrate on building customer relationships and taking their customer service to the next level.
+            AI is increasingly aiding utilities in managing, optimizing and
+            maintaining not only their infrastructure, but their customer
+            support operation as well. AI is helping utility companies automate
+            repetitive customer inquiries and other tasks, thereby allowing them
+            to concentrate on building customer relationships and taking their
+            customer service to the next level.
           </p>
 
           <div className="bu">
             {" "}
-            <Link to="../utilities"> knowmore</Link>{" "}
+            <Link to="../utilities"> 
+            <button className="know_more-btn">Know More</button>
+            </Link>{" "}
           </div>
         </div>
       </div>
-
-
       <div className="logistics">
         <div classname="text">
           <h1>Logistics</h1>
           <p>
             {""}
-            AI plays a vital role in saving time, reducing costs and increasing productivity and accuracy with cognitive automation. AI affects warehouse operations, such as collecting and analyzing information or inventory processing. As a result, AI can help increase efficiency and reap benefits. Artificial intelligence is beneficial for transportation.
+            AI plays a vital role in saving time, reducing costs and increasing
+            productivity and accuracy with cognitive automation. AI affects
+            warehouse operations, such as collecting and analyzing information
+            or inventory processing. As a result, AI can help increase
+            efficiency and reap benefits. Artificial intelligence is beneficial
+            for transportation.
           </p>
 
           <div className="bu">
             {" "}
-            <Link to="../logistics"> knowmore </Link>{" "}
+            <Link to="../logistics"> 
+            <button className="know_more-btn">Know More</button>
+             </Link>{" "}
           </div>
         </div>
 
         <img src="images/logistics.png" width="500" />
       </div>
-
-
       <div className="financial">
-        <img src="images/financial-services.png" width="500"  />
+        <img src="images/financial-services.png" width="500" />
 
         <div classname="text">
           <h1>Financial Services</h1>
           <p>
             {""}
-            AI has the potential to super-charge financial services and transform the way services are delivered to customers. It could allow more informed and tailored products and services, internal process efficiencies, enhanced cybersecurity and reduced risk.
+            AI has the potential to super-charge financial services and
+            transform the way services are delivered to customers. It could
+            allow more informed and tailored products and services, internal
+            process efficiencies, enhanced cybersecurity and reduced risk.
           </p>
 
           <div className="bu">
             {" "}
-            <Link to="../financial-services"> knowmore</Link>{" "}
+            <Link to="../financial-services"> 
+            <button className="know_more-btn">Know More</button>
+            </Link>{" "}
           </div>
         </div>
       </div>
-
-
     </div>
   );
 }

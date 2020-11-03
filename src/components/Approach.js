@@ -10,10 +10,10 @@ function Approach () {
                 <br />
                 subscribe us below </p>
 
-            <form class="subscribe_form" width="200px">
-                <input type="text" name="email" placeholder="Enter your email ID" />
+            <form class="subscribe_form" >
+                <input type="text" name="email" placeholder="Enter your email ID"  />
                 
-                    <button type="submit">Subscribe</button>
+                    <button type="submit">subscribe</button>
             </form>
 
             <p>we care about protecting your data</p>

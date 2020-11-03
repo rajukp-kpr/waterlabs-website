@@ -8,15 +8,15 @@ return(
     
         <div className="logo">
             
-<a href="#top">
+<a href="/#tp">
 
-            <img src="images/waterlabs-logo.png" width="200" href="#top" />
+            <img src="images/waterlabs-logo.png" width="200"  />
 
             </a>
            
             </div>
         <ul className="Nav-links">
-            <li> <a href="#sub"> subscribe </a> </li>
+            <li> <a href="/#sub"> subscribe </a> </li>
         </ul>
     
     </div>

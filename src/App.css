@@ -76,11 +76,30 @@ div .mtex {
   padding: 90px;
 }
 
+div .mtex a {
+  display: inline-block;
+  border: 1px solid #e1e1e1;
+  background-color: white;
+  font-family: Raleway;
+  font-weight: 700;
+  color: #134cee;
+  padding: 10px 30px;
+  border-radius: 6px;
+  transition: all .3s ease;
+}
+
+div .mtex a:hover {
+  background-color: #134cee;
+  color: white;
+  box-shadow: 2px 2px 5px 0 rgba(0,0,0,.1);
+}
+
 
 
 .mtex h1 {
 font-size: 65px;
 display: flex;
+
 }
 
 .mtex p {
@@ -95,20 +114,21 @@ display: flex;
   width: 100%;
 }
 
-div .bu button {
-  padding: 10px;
-  background-color: rgb(248, 247, 233);
-}
-
 div .lev2 {
   margin: 100px 150px 0px 150px;
   justify-content: center;
   text-align: center;
-  padding: 10px;
+  
 
   box-sizing: content-box;
   box-shadow: 3px 3px 10px 10px rgb(232, 238, 236);
   border: sloid red;
+
+  border-radius: 25px;
+  border: 1px solid #c3c4c2;
+  padding: 20px;
+  width: 1000px;
+  height: 400px;
 
 }
 
@@ -132,6 +152,12 @@ div .fea {
   text-align: center;
   margin: 150px;
   padding: 50px;
+
+  border-radius: 25px;
+  border: 1px solid #c3c4c2;
+  
+  width: 1000px;
+  height: 400px;
   
 }
 
@@ -156,7 +182,15 @@ div .card {
 div .all {
   margin: 50px 150px 50px 150px;
   box-shadow: 3px 3px 10px 10px rgb(232, 238, 236);
+  border-radius: 25px;
+  border: 1px solid #c3c4c2;
   }
+
+  .all p {
+    font-size: 16px;
+  }
+
+
 
  div .all h2 {
    padding: 25px;
@@ -285,6 +319,54 @@ div .atex {
  margin: 100px;
 }
 
+.atex button {
+  height: 46px;
+  background: #134cee;
+  border-radius: 0 10px 10px 0;
+  color: #fff;
+  padding: 5px 30px;
+  box-shadow: none;
+  border: 1px solid #134cee;
+  outline: none;
+  -webkit-transition: all .24s ease;
+  transition: all .24s ease;
+}
+
+div .atex input {
+  height: 45px;
+  border: 1px solid #d1d0d0;
+  width: 250px;
+  background: none;
+  border-radius: 10px 0 0 10px;
+  font-size: .8rem;
+  padding: 10px 15px;
+  outline: none;
+}
+.bu {
+  
+  align-items: center;
+}
+.know_more-btn {
+  
+  display: inline-block;
+  border: 1px solid #e1e1e1;
+  background-color: white;
+  font-family: Raleway;
+  font-weight: 700;
+  color: #134cee;
+  padding: 10px 30px;
+  border-radius: 6px;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+
+
+}
+.know_more-btn:hover {
+  background-color: #134cee;
+  color: white;
+  box-shadow: 2px 2px 5px 0 rgba(0,0,0,.1);
+}
+
 
 div .atex h1 {
   font-size: 25px;
@@ -308,10 +390,25 @@ div .footer p {
 
 div .up {
   text-align: center;
-  margin: 0px 200px 0px 200px;
+  margin: 40px 200px 0px 200px;
   padding: 20px
 }
 
+div .up h1 {
+  color: #134cee
+}
+
+div .up p{
+  font-size: 16px;
+}
+
+div .low p {
+    font-size: 16px;
+}
+
+div .low li {
+  font-size: 16px;
+}
 
 
 div .low{ 
