@@ -1,63 +1,69 @@
-import React from 'react';
-import {Card} from "react-bootstrap";
-import {CardDeck} from "react-bootstrap";
+import React from "react";
+import { Card } from "react-bootstrap";
+import { CardDeck } from "react-bootstrap";
 
-function Features () {
+function Features() {
+  return (
+    <div className="fea">
+      <h1>Features</h1>
 
-    return (
+      <div classsName="card">
+        <CardDeck>
+          <Card>
+            <div className="image-back">
+              <Card.Img
+                variant="center"
+                src="images/lightingsvg.svg"
+                style={{ justifycontent: "center", display: "flex" }}
+              />
+            </div>
 
-        <div className="fea">
-            <h1>Features</h1>
+            <Card.Body>
+              <Card.Title></Card.Title>
+              <Card.Text>Robust Performance</Card.Text>
+            </Card.Body>
+          </Card>
 
-        <div classsName="card">
-            
-<CardDeck>
-  <Card>
-    <Card.Img variant="center" src="images/lightingsvg.svg"  style={{justifycontent: "center", display: "flex" }} height="80" />
-    <Card.Body>
-      <Card.Title></Card.Title>
-      <Card.Text>
-        Robust Performance
-      </Card.Text>
-    </Card.Body>
-    
-  </Card>
-  <Card>
-    <Card.Img src="images/security.svg"  height="80" />
-    <Card.Body>
-      <Card.Title></Card.Title>
-      <Card.Text>
-        Compliance
-      </Card.Text>
-    </Card.Body>
-    
-  </Card>
-  <Card>
-    <Card.Img src="images/speed.svg" height="80" />
-    <Card.Body>
-      <Card.Title></Card.Title>
-      <Card.Text>
-        Consistency
-      </Card.Text>
-    </Card.Body>
-  
-  </Card>
+          <Card>
+            <div className="image-back">
+              <Card.Img variant="center" src="images/security.svg" />
+            </div>
+            <Card.Body>
+              <Card.Title></Card.Title>
+              <Card.Text>Compliance</Card.Text>
+            </Card.Body>
+          </Card>
+          <Card>
+            <div className="image-back">
+              <Card.Img
+                variant="center"
+                src="images/speed.svg"
+                style={{ justifycontent: "center", display: "flex" }}
+              />
+            </div>
+            <Card.Body>
+              <Card.Title></Card.Title>
+              <Card.Text>Consistency</Card.Text>
+            </Card.Body>
+          </Card>
 
-  <Card>
-    <Card.Img  src="images/optimised.svg" height="80" />
-    <Card.Body>
-      <Card.Title></Card.Title>
-      <Card.Text >
-        Opitimality
-      </Card.Text>
-    </Card.Body>
-  
-  </Card>
-</CardDeck>
-        </div>
-        </div>
-    )
-
+          <Card>
+            <div className="image-back">
+              <Card.Img
+                variant="center"
+                src="images/optimised.svg"
+                style={{ justifycontent: "center", display: "flex" }}
+              />
+            </div>
+            <Card.Body>
+              <Card.Title></Card.Title>
+              <Card.Text>Opitimality</Card.Text>
+            </Card.Body>
+          </Card>
+        </CardDeck>
+      </div>
+    </div>
+  );
 }
 
-export default Features
+export default Features;

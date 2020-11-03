@@ -9,9 +9,7 @@ function WhoAreWe() {
         capable of automating any business process, thus enabling enterprises to
         create and deploy large-scale digital workforce with unprecedented speed
         and with absolute compliance.
-      </p>
-    
-      <p>
+        <br />
         Our AI-enabled Digital Workforce can partner with you to scale your
         business processes faster, with near-zero error rates and reduced
         operating costs. Our solutions are engineered to achieve

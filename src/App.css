@@ -23,7 +23,9 @@ div .navi {
   min-height: 10vm;
   background-color: whitesmoke ;
   color: #fff;
-  box-shadow: 3px 3px 3px 3px rgb(232, 238, 236)
+  box-shadow: 3px 3px 3px 3px rgb(232, 238, 236) ;
+
+  padding: 10px;
 
 }
 
@@ -126,7 +128,7 @@ div .lev2 {
 
   border-radius: 25px;
   border: 1px solid #c3c4c2;
-  padding: 20px;
+  padding: 00px;
   width: 1000px;
   height: 400px;
 
@@ -139,7 +141,7 @@ div .lev2 h1 {
 }
 
 div .lev2 p {
-  margin: 50px 100px 50px 100px;
+  margin: 40px 100px 50px 100px;
   font-size: 17px;
   padding: 0px;
   justify-content: center;
@@ -170,14 +172,55 @@ div .fea h1 {
 div .card {
   box-sizing: border-box;  
   justify-content: center;
+  align-items: center;
   width: 180px;
   height: 180px;
-  margin: 20px;
+  margin: 20px 20px 20px 20px;
   padding: 10px;
   color: white;
   font-size: 18px;
   background-color: rgb(67, 58, 204)
 }
+
+
+
+
+
+
+
+div .card img {
+  height: 35px;
+  width: 35px;
+   
+}
+
+div .image-back {
+ width: 70px;
+ height: 70px;
+    background: hsla(0,0%,100%,.4);
+    border-radius: 50%;
+    margin: auto;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+div.image-back:after {
+  width: 90px;
+  height: 90px;
+  content: "";
+  position: absolute;
+  background: hsla(0,0%,100%,.1);
+  border-radius: 50%;
+  -webkit-animation: breath 2s ease-in-out 0s infinite alternate forwards;
+  animation: breath 2s ease-in-out 0s infinite alternate forwards;
+}
+    
+
+
+
+
 
 div .all {
   margin: 50px 150px 50px 150px;
