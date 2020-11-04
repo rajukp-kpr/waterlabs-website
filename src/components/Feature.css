@@ -1,0 +1,5 @@
+ div .card {
+    flex: unset;
+    padding: unset;
+    padding-top: 40px;
+}

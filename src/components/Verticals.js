@@ -7,7 +7,7 @@ function Verticals() {
     <div className="all">
       <h2>Verticals we focused on</h2>
       <div className="health">
-        <img src="images/healthcare.png" width="500" />
+        <img src="images/healthcare.png" width="500"  />
 
         <div classname="text">
           <h1>Healthcare</h1>

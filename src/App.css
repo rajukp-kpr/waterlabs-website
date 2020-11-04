@@ -4,51 +4,48 @@
   box-sizing: border-box;
 }
 
-
-
 a {
   text-decoration: none;
 }
 
-
-
 div .navi {
   position: fixed;
-  display: flex;
+  z-index: 10000;
   
+  display: flex;
+
   justify-content: space-between;
- top: 0;
- left: 0;
-  width :100%;
-  min-height: 10vm;
-  background-color: whitesmoke ;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 70px;
+  background-color: whitesmoke;
   color: #fff;
-  box-shadow: 3px 3px 3px 3px rgb(232, 238, 236) ;
+  box-shadow: 3px 3px 3px 3px rgb(232, 238, 236);
 
   padding: 10px;
 
 }
 
+div .logo {
+  display: flex-start;
 
-
-div  .logo {
-  display : flex-start;
-  
   font-size: 22px;
   text-transform: uppercase;
-
-}  
+  
+}
 
 div .Nav-links {
   justify-content: center;
   margin: 40;
-  padding: 10px;  
+  padding: 10px;
+  
 }
-
 
 div .Nav-links a {
   font-size: 14px;
   font-weight: normal;
+  
 }
 
 div .Nav-links a:hover {
@@ -69,7 +66,6 @@ div .lev1 {
   display: flex;
   flex-flow: row nowrap;
   padding: 10px;
-
 }
 
 div .mtex {
@@ -87,31 +83,26 @@ div .mtex a {
   color: #134cee;
   padding: 10px 30px;
   border-radius: 6px;
-  transition: all .3s ease;
+  transition: all 0.3s ease;
 }
 
 div .mtex a:hover {
   background-color: #134cee;
   color: white;
-  box-shadow: 2px 2px 5px 0 rgba(0,0,0,.1);
+  box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, 0.1);
 }
 
-
-
 .mtex h1 {
-font-size: 65px;
-display: flex;
-
+  font-size: 65px;
+  display: flex;
 }
 
 .mtex p {
-  
   font-size: 18px;
   padding: 0px;
 }
 
 .mtex img {
-  
   justify-content: center;
   width: 100%;
 }
@@ -120,18 +111,16 @@ div .lev2 {
   margin: 100px 150px 0px 150px;
   justify-content: center;
   text-align: center;
-  
 
   box-sizing: content-box;
   box-shadow: 3px 3px 10px 10px rgb(232, 238, 236);
-  border: sloid red;
+  
 
   border-radius: 25px;
   border: 1px solid #c3c4c2;
   padding: 00px;
   width: 1000px;
   height: 400px;
-
 }
 
 div .lev2 h1 {
@@ -157,10 +146,9 @@ div .fea {
 
   border-radius: 25px;
   border: 1px solid #c3c4c2;
-  
+
   width: 1000px;
   height: 400px;
-  
 }
 
 div .fea h1 {
@@ -170,7 +158,8 @@ div .fea h1 {
 }
 
 div .card {
-  box-sizing: border-box;  
+  display: flex ;
+  box-sizing: border-box;
   justify-content: center;
   align-items: center;
   width: 180px;
@@ -179,31 +168,26 @@ div .card {
   padding: 10px;
   color: white;
   font-size: 18px;
-  background-color: rgb(67, 58, 204)
+  background-color: rgb(67, 58, 204);
 }
-
-
-
-
 
 
 
 div .card img {
   height: 35px;
   width: 35px;
-   
 }
 
 div .image-back {
- width: 70px;
- height: 70px;
-    background: hsla(0,0%,100%,.4);
-    border-radius: 50%;
-    margin: auto;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
+  width: 70px;
+  height: 70px;
+  background: hsla(0, 0%, 100%, 0.4);
+  border-radius: 50%;
+  margin: auto;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
 }
 
 div.image-back:after {
@@ -211,12 +195,10 @@ div.image-back:after {
   height: 90px;
   content: "";
   position: absolute;
-  background: hsla(0,0%,100%,.1);
+  background: hsla(0, 0%, 100%, 0.1);
   border-radius: 50%;
-  -webkit-animation: breath 2s ease-in-out 0s infinite alternate forwards;
-  animation: breath 2s ease-in-out 0s infinite alternate forwards;
+ 
 }
-    
 
 
 
@@ -227,26 +209,23 @@ div .all {
   box-shadow: 3px 3px 10px 10px rgb(232, 238, 236);
   border-radius: 25px;
   border: 1px solid #c3c4c2;
-  }
+}
 
-  .all p {
-    font-size: 16px;
-  }
+.all p {
+  font-size: 16px;
+}
 
-
-
- div .all h2 {
-   padding: 25px;
-   font-size: 35px;
-   text-decoration: underline;
- } 
+div .all h2 {
+  padding: 25px;
+  font-size: 35px;
+  text-decoration: underline;
+}
 
 div .health {
   margin: 40px 40px 40px 40px;
   justify-content: center;
   display: flex;
   align-items: center;
-  
 }
 
 div .health text {
@@ -255,12 +234,12 @@ div .health text {
 }
 
 div .health h1 {
-font-size: 25px;
+  font-size: 25px;
 }
 
 div .banking {
   margin: 20px 40px 40px 40px;
-  display:flex;
+  display: flex;
   padding: 30px;
   align-items: center;
 }
@@ -271,7 +250,7 @@ div .banking text {
 }
 
 div .banking h1 {
-font-size: 25px;
+  font-size: 25px;
 }
 
 div .insurance {
@@ -287,7 +266,7 @@ div .insurance text {
 }
 
 div .insurance h1 {
-font-size: 25px;
+  font-size: 25px;
 }
 
 div .retail {
@@ -303,9 +282,8 @@ div .retail text {
 }
 
 div .retail h1 {
-font-size: 25px;
+  font-size: 25px;
 }
-
 
 div .utilities {
   margin: 20px 40px 40px 40px;
@@ -320,9 +298,8 @@ div .utilities text {
 }
 
 div .utilities h1 {
-font-size: 25px;
+  font-size: 25px;
 }
-
 
 div .logistics {
   margin: 20px 40px 40px 40px;
@@ -337,9 +314,8 @@ div .logistics text {
 }
 
 div .logistics h1 {
-font-size: 25px;
+  font-size: 25px;
 }
-
 
 div .financial {
   margin: 20px 40px 40px 40px;
@@ -354,12 +330,12 @@ div .financial text {
 }
 
 div .financial h1 {
-font-size: 25px;
+  font-size: 25px;
 }
 
 div .atex {
- text-align: center;
- margin: 100px;
+  text-align: center;
+  margin: 100px;
 }
 
 .atex button {
@@ -371,8 +347,8 @@ div .atex {
   box-shadow: none;
   border: 1px solid #134cee;
   outline: none;
-  -webkit-transition: all .24s ease;
-  transition: all .24s ease;
+  -webkit-transition: all 0.24s ease;
+  transition: all 0.24s ease;
 }
 
 div .atex input {
@@ -381,16 +357,14 @@ div .atex input {
   width: 250px;
   background: none;
   border-radius: 10px 0 0 10px;
-  font-size: .8rem;
+  font-size: 0.8rem;
   padding: 10px 15px;
   outline: none;
 }
 .bu {
-  
   align-items: center;
 }
 .know_more-btn {
-  
   display: inline-block;
   border: 1px solid #e1e1e1;
   background-color: white;
@@ -399,17 +373,14 @@ div .atex input {
   color: #134cee;
   padding: 10px 30px;
   border-radius: 6px;
-  -webkit-transition: all .3s ease;
-  transition: all .3s ease;
-
-
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
 }
 .know_more-btn:hover {
   background-color: #134cee;
   color: white;
-  box-shadow: 2px 2px 5px 0 rgba(0,0,0,.1);
+  box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, 0.1);
 }
-
 
 div .atex h1 {
   font-size: 25px;
@@ -422,8 +393,8 @@ div .atex p {
 
 div .footer {
   text-align: center;
-  padding : 10px;
-  background-color:  #fdfaf2 ;
+  padding: 10px;
+  background-color: #fdfaf2;
 }
 
 div .footer p {
@@ -434,35 +405,32 @@ div .footer p {
 div .up {
   text-align: center;
   margin: 40px 200px 0px 200px;
-  padding: 20px
+  padding: 20px;
 }
 
 div .up h1 {
-  color: #134cee
+  color: #134cee;
 }
 
-div .up p{
+div .up p {
   font-size: 16px;
 }
 
 div .low p {
-    font-size: 16px;
+  font-size: 16px;
 }
 
 div .low li {
   font-size: 16px;
 }
 
-
-div .low{ 
+div .low {
   background-color: rgb(240, 241, 243);
   padding: 40px;
-
 }
 div .lower {
-  margin :40px 200px 0px 200px;
+  margin: 40px 200px 0px 200px;
   list-style: bullets;
-
 }
 
 div .low h1 {

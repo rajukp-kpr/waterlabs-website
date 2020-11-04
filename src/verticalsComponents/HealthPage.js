@@ -12,23 +12,12 @@ function ScrollToTopOnMount() {
   return null;
 }
 
-
-
 function HealthPage() {
-
-
-
   return (
-
-    
-    
-
-
     <div>
+      <ScrollToTopOnMount />
 
-<ScrollToTopOnMount />
-
-          <div className="up">
+      <div className="up">
         <img src="images/healthcare.png" width="400" />
 
         <h1>HealthCare</h1>
@@ -51,34 +40,34 @@ function HealthPage() {
           of hospital records, medical prescriptions, pathology reports, etc.
         </p>
       </div>
-      <div className="low">  
-      <div className="lower">
-        <p>
-          Our mission is to help healthcare organizations, payers, and their
-          partners use AI technology to help improve outcomes, streamline
-          operations, identify financial risks, and retain their most valuable
-          health consumers (patients, members, employees). We work with you to
-          turn your ever-increasing volumes of data into cutting edge insights
-          and predictions that will drive cost saving clinical, operational, and
-          financial decisions across your enterprise.
-        </p>
-        <ul>
-          <li>Electronic Health Records Management</li>
-          <li>Employee on-boarding</li>
-          <li>Employee on-boarding</li>
-          <li>IVR Status checks</li>
-          <li>Adjudication</li>
-          <li>Claims recovery</li>
-          <li>Automated reports</li>
-          <li>Coding Compliance Monitoring</li>
-          <li>Quality and Quantity Metrics tracking</li>
-          <li>Medicare enrollment</li>
-          <li>Pre-authorization applying and confirmations</li>
-        </ul>
-      </div>
+      <div className="low">
+        <div className="lower">
+          <p>
+            Our mission is to help healthcare organizations, payers, and their
+            partners use AI technology to help improve outcomes, streamline
+            operations, identify financial risks, and retain their most valuable
+            health consumers (patients, members, employees). We work with you to
+            turn your ever-increasing volumes of data into cutting edge insights
+            and predictions that will drive cost saving clinical, operational,
+            and financial decisions across your enterprise.
+          </p>
+          <ul>
+            <li>Electronic Health Records Management</li>
+            <li>Employee on-boarding</li>
+            <li>Employee on-boarding</li>
+            <li>IVR Status checks</li>
+            <li>Adjudication</li>
+            <li>Claims recovery</li>
+            <li>Automated reports</li>
+            <li>Coding Compliance Monitoring</li>
+            <li>Quality and Quantity Metrics tracking</li>
+            <li>Medicare enrollment</li>
+            <li>Pre-authorization applying and confirmations</li>
+          </ul>
+        </div>
       </div>
     </div>
   );
 }
 
-export default HealthPage
+export default HealthPage;
